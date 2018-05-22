@@ -28,8 +28,8 @@ class WareHouseManageSys:
             items_list = xc_list
         return items_list
 
-    def add_updata_item_info(self, **kvargs):
-        for item, price in kvargs.items():
+    def add_updata_item_info(self, **kwargs):
+        for item, price in kwargs.items():
             self.item_detail[item] = price
 
 
